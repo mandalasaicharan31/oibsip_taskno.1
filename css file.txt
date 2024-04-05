@@ -1,0 +1,98 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fallback background color */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px;
+    background-color: #fff;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s; /* Delay for each feature */
+}
+
+.feature:hover {
+    animation: pulsate 1s infinite alternate; /* Pulsate effect on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Keyframes for fadeInUp animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for pulsate effect */
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

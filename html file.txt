@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aicte Oasis Internship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aicte Oasis Internship</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Student Internship Program March 2024</h2>
+            <p>Learning is the only thing mind never exhausts, never fears, and never regrets.</p>
+            <h2>Basic Information</h2>
+            <p>OASIS INFOBYTE is a community of diverse people coming together with similar objectives and ultimate goals. 
+OASIS INFOBYTE is all about creating opportunities for leadership development, learning, student engagement, and fostering of shared interests. We develop enriching environments and experiences that promote students' knowledge and wellbeing.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Web Development and Designing</h3>
+                <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+            </div>
+            <div class="feature">
+                <h3>Andriod App Development</h3>
+                <p>Android development is a form of software engineering dedicated specifically to creating applications for devices that run on the Android platform</p>
+            </div>
+            <div class="feature">
+                <h3>Java Development</h3>
+                <p>Java is used for developing desktop applications, system software, server applications, and software tools. It is platform-independent, robust, and object-oriented</p>
+            </div>
+            <div class="feature">
+                 <h3>Graphic Design</h3>
+                 <p>Graphic design is the art and practice of planning and projecting ideas and experiences with visual and textual content.</p>
+            </div>
+            <div class="feature">
+                 <h3>Data Science</h3>
+                 <p>Data science is the study of data to extract meaningful insights for business. It is a multidisciplinary approach that combines principles and practices of Data</p>
+            </div>
+            <div class="feature">
+                 <h3>Python programming</h3>
+                 <p>Python is a programming language used in website development, software development, task automation, data analysis and data visualization.</p>
+            </div>
+            <div class="feature">
+                 <h3>Data Analytics</h3>
+                 <p>Data analytics converts raw data into actionable insights. It includes a range of tools, technologies, and processes used to find trends and solve problems by using data.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AiCTE OASIS INFOBYTE. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
